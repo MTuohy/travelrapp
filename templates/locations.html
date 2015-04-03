@@ -1,0 +1,16 @@
+<ion-view view-title="Select a Location">
+  <ion-content>
+    <ion-list id="locationlist">
+      <ion-item ng-repeat="location in locations" href="#/app/locations/{{location.url}}">
+        {{location.name}}
+      </ion-item>
+      <ion-item id="checkbackitem">
+        <p>Keep updated when we add more countries!</p>
+        <form>
+          <input type="email" placeholder="email">
+          <input type="submit" value="Keep Me Updated" class="button button-assertive button-block">
+        </form>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

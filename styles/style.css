@@ -53,3 +53,20 @@
   line-height:32px;
   font-weight:100;
 }
+
+#checkbackitem{
+  height:180px;
+  font-size:25px;
+}
+
+#checkbackitem p{
+  font-size:25px;
+  text-align:center;
+  height:35px;
+}
+
+#checkbackitem form{
+  width:95%;
+  max-width:450px;
+  margin:20px auto;
+}
