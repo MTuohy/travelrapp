@@ -1,7 +1,7 @@
 <ion-view view-title="Select a Country">
   <ion-content>
     <ion-list id="locationlist">
-      <ion-item ng-repeat="location in locations" href="#/app/locations/{{location.url}}">
+      <ion-item ng-repeat="location in locations" href="#/app/locations/{{location.id}}">
         {{location.name}}
       </ion-item>
       <ion-item id="checkbackitem">

@@ -35,11 +35,31 @@ angular.module('starter.controllers', [])
 
 .controller('LocationsCtrl', function($scope) {
   $scope.locations = [
-    { name: 'Canada', id: 1, url: "Canada" },
-    { name: 'United States', id: 2, url: "Unitedstates" },
-    { name: 'Mexico', id: 3, url: "Mexico" },
+    { name: 'Canada', id: 0 },
+    { name: 'United States', id: 1 },
+    { name: 'Mexico', id: 2 },
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('LocationCtrl', function($scope, $stateParams) {
+  $scope.locationSet = [
+    [
+      { name: 'West Canada', id: 0},
+      { name: 'East Canada', id: 1},
+    ],
+    [
+      { name: 'Midwest', id: 2},
+      { name: 'Northeast', id: 3},
+      { name: 'South', id: 4},
+      { name: 'West', id: 5},
+    ],
+    [
+      { name: 'Central', id: 6},
+      { name: 'East', id: 7},
+      { name: 'North', id: 8},
+      { name: 'South', id: 9},
+      { name: 'West', id: 10},
+    ],
+  ];
+  $scope.id = $stateParams.locationId;
 });
