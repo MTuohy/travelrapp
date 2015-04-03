@@ -1,0 +1,55 @@
+/* Empty. Add your own CSS if you like */
+#welcomebackground{
+  width:100%;
+  min-height:calc(100vh - 44px);
+  background-image:url(/images/road.jpeg);
+  background-size:100% 100%;
+}
+
+#welcomecontainer{
+  width:100%;
+  min-height:calc(100vh - 44px);
+  background-color:rgba(255,255,255,.4);
+  padding:3vh 0;
+}
+
+#welcomecontainer img{
+  display:block;
+  margin:0 auto;
+  height:calc(100vh - 210px - 180px);
+}
+#welcomecontainer p{
+  font-weight:100;
+  font-size:30px;
+  max-width:500px;
+  margin:0 auto;
+  margin-top:20px;
+  text-align:center;
+  line-height:35px;
+  padding:20px 30px;
+  height:150px;
+}
+
+#welcomecontainer form{
+  max-width:500px;
+  margin:0 auto;
+  width:95%;
+  margin-top:20px;
+  margin-bottom:20px;
+  height:110px;
+}
+
+#welcomecontainer form input{
+  height:50px;
+  font-size:32px;
+  line-height:32px;
+  font-weight:100;
+  padding:10px 5px;
+}
+
+#welcomecontainer form input[type="submit"]{
+  height:50px;
+  font-size:26px;
+  line-height:32px;
+  font-weight:100;
+}
