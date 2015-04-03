@@ -35,9 +35,9 @@ angular.module('starter.controllers', [])
 
 .controller('LocationsCtrl', function($scope) {
   $scope.locations = [
-    { name: 'Canada', id: 1, url: "canada" },
-    { name: 'United States', id: 2, url: "unitedstates" },
-    { name: 'Mexico', id: 3, url: "mexico" },
+    { name: 'Canada', id: 1, url: "Canada" },
+    { name: 'United States', id: 2, url: "Unitedstates" },
+    { name: 'Mexico', id: 3, url: "Mexico" },
   ];
 })
 
